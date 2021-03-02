@@ -12,7 +12,6 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <script src="../lib/particles.js"></script>
         <NavBar></NavBar>
         <Home/>
         <ProjectCards/>
