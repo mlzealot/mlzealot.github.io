@@ -3,12 +3,17 @@ import {
   MDBMask,
   MDBRow,
   MDBCol,
-  MDBBtn,
+  MDBIcon,
   MDBView,
   MDBContainer,
   MDBAnimation
 } from 'mdbreact';
-import '../css/AppPage.css';
+import { appName, appTagline } from '../data/HomeData';
+import '../css/Home.css';
+
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
+import resume from "../assets/resume.pdf";
 
 class Home extends React.Component {
   render() {
@@ -25,16 +30,19 @@ class Home extends React.Component {
               <MDBCol md='7' className='text-center text-md-left mt-xl-5 mb-5'>
                 <MDBAnimation type='fadeInLeft' delay='.3s'>
                   <h1 className='h1-responsive font-weight-bold mt-sm-5'>
-                    ML Dojo
+                    {appName}
                   </h1>
                   <hr className='hr-light' />
                   <h6 className='mb-4'>
-                    Machine Learning and Data Science Simplified.
+                    {appTagline}
                   </h6>
-                  <MDBBtn color='white'>Download</MDBBtn>
-                  <MDBBtn outline color='white'>
-                    Learn More
-                  </MDBBtn>
+
+                  <AnchorLink className="btn btn-white" href="#projects">
+                    <MDBIcon icon="terminal" />&nbsp;&nbsp;Explore
+                  </AnchorLink>
+                  <a className="btn btn-outline-white" href={resume} target="_blank">
+                    Resume&nbsp;&nbsp;<MDBIcon icon="file-pdf" />
+                  </a>
                 </MDBAnimation>
               </MDBCol>
 

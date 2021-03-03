@@ -2,34 +2,35 @@ import React, { Component } from "react";
 import {
   MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBIcon
 } from "mdbreact";
-import { BrowserRouter as Router } from 'react-router-dom';
 import "../css/style_common.css";
 import "../css/navbar.css";
 
-class NavbarPage extends Component {
-  state = {
-    isOpen: false
-  };
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-  toggleCollapse = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  }
+class NavbarPage extends Component {
 
   render() {
     return (
-      <Router>
         <MDBNavbar className="primary-gradient" dark expand="md" fixed="top" scrolling>
           <MDBNavbarBrand>
-            <strong className="white-text">Brand</strong>
+            <strong>
+                <AnchorLink href="#home" className="white-text">
+                    Brand
+                </AnchorLink>
+            </strong>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />
-          <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+          <MDBCollapse id="navbarCollapse3" navbar>
             <MDBNavbarNav left>
               <MDBNavItem>
-                <MDBNavLink to="#!">Home</MDBNavLink>
+                <AnchorLink href="#projects" className="nav-link">
+                    Projects
+                </AnchorLink>
               </MDBNavItem>
               <MDBNavItem>
-                <MDBNavLink to="#!">Features</MDBNavLink>
+                <AnchorLink href="#about_me" className="nav-link">
+                    About Me
+                </AnchorLink>
               </MDBNavItem>
             </MDBNavbarNav>
             <MDBNavbarNav right>
@@ -46,7 +47,6 @@ class NavbarPage extends Component {
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBNavbar>
-      </Router>
     );
   }
 }
