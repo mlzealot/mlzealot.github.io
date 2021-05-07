@@ -11,5 +11,10 @@ export const navBarPortfolioLinkArray = [
         portfolio_name : "Kaggle",
         portfolio_url : "https://kaggle.com/srimanth98",
         portfolio_icon : "kaggle",
+    },{
+        portfolio_id : 2,
+        portfolio_name : "Hackerrank",
+        portfolio_url : "https://www.hackerrank.com/srimanth98",
+        portfolio_icon : "hackerrank",
     },
 ];

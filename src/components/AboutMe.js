@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBRow, MDBCol, MDBContainer, MDBCard, MDBCardBody, MDBIcon } from "mdbreact";
-import avatar from "../assets/avatar256x256.jpg";
+import avatar from "../assets/avatar256x256.png";
 import { 
     aboutMeComponentTitle,
     aboutMeComponentDescription,
@@ -12,7 +12,8 @@ class AboutMe extends Component {
   render() {
     return (
         <div>
-            {/* my -> move in y-axis -> increase the number to make it go up in pixels
+            {/* 
+            my -> move in y-axis -> increase the number to make it go up in pixels
             px -> shrink in x-axis -> increase the number to increase padding and decrease content width
             pb -> Keep it at 4 I guess?
             */}
@@ -30,9 +31,8 @@ class AboutMe extends Component {
                         <ul className="list-unstyled mb-0" style={{paddingTop:"2rem"}}>
                             {aboutMeLinkArray.map((social) => (
                                 <a href={social.social_url} className="p-2 fa-2x" target="_blank"
-                                    key={social.social_id}
-                                >
-                                    <MDBIcon fab icon={social.social_icon} className={social.color_class} />
+                                    key={social.social_id}>
+                                    <MDBIcon fab={social.is_fab} icon={social.social_icon} className={social.color_class} />
                                 </a>
                             ))}
                         </ul>

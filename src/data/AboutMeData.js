@@ -13,27 +13,37 @@ export const myBio = "Hello, I am Srimanth, an undergraduate Machine Learning en
 
 
 export const aboutMeLinkArray = [
-    
     {
         social_id : 0,
-        social_name : "LinkedIn",
-        social_url : "https://in.linkedin.com/in/srimanthagastyaraju",
-        social_icon : "linkedin",
-        color_class: "blue-text"
+        social_name : "Email",
+        social_url : "mailto:srimanth.rockzz@gmail.com",
+        social_icon : "envelope",
+        color_class: "blue-text",
+        is_fab: false
     },
     {
         social_id : 1,
-        social_name : "Reddit",
-        social_url : "https://www.instagram.com/srimanth_agastyaraju/",
-        social_icon : "reddit",
-        color_class: "red-text"
+        social_name : "LinkedIn",
+        social_url : "https://in.linkedin.com/in/srimanthagastyaraju",
+        social_icon : "linkedin",
+        color_class: "blue-text",
+        is_fab: true
     },
     {
         social_id : 2,
+        social_name : "Reddit",
+        social_url : "https://www.instagram.com/srimanth_agastyaraju/",
+        social_icon : "reddit",
+        color_class: "red-text",
+        is_fab: true
+    },
+    {
+        social_id : 3,
         social_name : "Instagram",
         social_url : "https://www.instagram.com/srimanth_agastyaraju/",
         social_icon : "instagram",
-        color_class: "dark-grey-text"
+        color_class: "dark-grey-text",
+        is_fab: true
     },
     
 ];

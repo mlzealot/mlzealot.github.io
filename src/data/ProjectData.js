@@ -13,16 +13,26 @@ export const projectJsonArray = [
         title: "Housing Prices Advanced",
         image: base + "/" + "g39p1kDjvSY" + "/" + dimensions,
         description: "Housing prices advanced kernel from kaggle.",
-        icon: "kaggle",
-        target_url:"https://www.kaggle.com/srimanth98/data-cleaning-eda-plotly-feat-engg-lasso"
+        links: [
+            {
+                icon:"kaggle",
+                url:"https://www.kaggle.com/srimanth98/data-cleaning-eda-plotly-feat-engg-lasso",
+                button_text:"Kaggle"
+            },
+        ],
     },
     {
         id: 1,
         title: "YouTube Sentiment Analysis",
         image:  base + "/" + "niUkImZcSP8" + "/" + dimensions,
         description: "A dashboard, created for naive users to analyze youtube comments.",
-        icon: "github",
-        target_url:"https://www.kaggle.com/srimanth98/data-cleaning-eda-plotly-feat-engg-lasso"
+        links: [
+            {
+                icon:"github",
+                url:"https://www.kaggle.com/srimanth98/data-cleaning-eda-plotly-feat-engg-lasso",
+                button_text:"GitHub"
+            },
+        ],
     },
     {
         id: 2,
@@ -32,7 +42,12 @@ export const projectJsonArray = [
         dataset, build a few plots off the dataset and allows the user to \
         select the features and the ML algorithm based on the plot info. \
         Developed using Dash by Plotly.",
-        icon: "github",
-        target_url:"https://www.kaggle.com/srimanth98/data-cleaning-eda-plotly-feat-engg-lasso"
-    }
+        links: [
+            {
+                icon:"github",
+                url:"https://www.kaggle.com/srimanth98/data-cleaning-eda-plotly-feat-engg-lasso",
+                button_text:"GitHub"
+            },
+        ],
+    },
 ]

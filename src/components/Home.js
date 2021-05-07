@@ -61,7 +61,6 @@ class Home extends React.Component {
       </div>
     );
   }
-  // 'https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png'
 }
 
 export default Home;

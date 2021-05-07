@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody, MDBCol, MDBRow, MDBIcon } from "mdbreact";
 import '../css/cards.css';
-import { projectJsonArray, componentTitle, componentDescription } from "../data/ProjectData";
+import { componentTitle, componentDescription, projectJsonArray } from "../data/ProjectData";
 import '../css/style_common.css';
 
 class ProjectCards extends Component{
@@ -29,14 +29,15 @@ class ProjectCards extends Component{
                                     <MDBCardText>
                                         {project.description}
                                     </MDBCardText>
-                                    <MDBBtn outline color="black" size="md">
-                                        <a href={project.target_url} target="_blank" 
-                                        className="black-text"
-                                        >
-                                            <MDBIcon fab icon={project.icon} />&nbsp;&nbsp;
-                                            Learn More
-                                        </a>
-                                    </MDBBtn>
+                                    {/* Loop through links in each project */}
+                                    {project.links.map((link) => (
+                                        <MDBBtn outline color="black" size="md" 
+                                            href={link.url} target="_blank" 
+                                            className="black-text">
+                                                <MDBIcon fab icon={link.icon} />&nbsp;
+                                                {link.button_text}
+                                        </MDBBtn>
+                                    ))}
                                 </MDBCardBody>
                             </MDBCard>
                         </MDBCol>
