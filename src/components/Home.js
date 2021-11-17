@@ -1,66 +1,86 @@
 import React from 'react';
-import {
-  MDBMask,
-  MDBRow,
-  MDBCol,
-  MDBIcon,
-  MDBView,
-  MDBContainer,
-  MDBAnimation
-} from 'mdbreact';
-import { appName, appTagline } from '../data/HomeData';
-import '../css/Home.css';
+import { makeStyles } from '@mui/styles';
+import { Grid } from '@mui/material';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import { globalStyles } from '../Theme';
+import { Icon } from '@mui/material';
 
+import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
+import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-import resume from "../assets/resume.pdf";
+import '../App.css';
+import bgd from '../assets/bgd.png';
+import resume from "../assets/Resume_2021_DS.pdf";
 
-class Home extends React.Component {
-  render() {
-    return (
-      <div id='apppage'>
-        <MDBView>
-          <MDBMask className='white-text gradient' />
-          <MDBMask className='flex-center' overlay="black-light" />
-          <MDBContainer
-            style={{ height: '100%', width: '100%', paddingTop: '10rem' }}
-            className='d-flex justify-content-center white-text align-items-center'
-          >
-            <MDBRow>
-              <MDBCol md='7' className='text-center text-md-left mt-xl-5 mb-5'>
-                <MDBAnimation type='fadeInLeft' delay='.3s'>
-                  <h1 className='h1-responsive font-weight-bold mt-sm-5'>
-                    {appName}
-                  </h1>
-                  <hr className='hr-light' />
-                  <h6 className='mb-4'>
-                    {appTagline}
-                  </h6>
 
-                  <AnchorLink className="btn btn-white" href="#projects">
-                    <MDBIcon icon="terminal" />&nbsp;&nbsp;Explore
-                  </AnchorLink>
-                  <a className="btn btn-outline-white" href={resume} target="_blank">
-                    Resume&nbsp;&nbsp;<MDBIcon icon="file-pdf" />
-                  </a>
-                </MDBAnimation>
-              </MDBCol>
-
-              <MDBCol md='5' xl='5' className='mt-xl-5'>
-                <MDBAnimation type='fadeInRight' delay='.3s'>
-                  <img
-                    src='https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png'
-                    alt=''
-                    className='img-fluid'
-                  />
-                </MDBAnimation>
-              </MDBCol>
-            </MDBRow>
-          </MDBContainer>
-        </MDBView>
-      </div>
-    );
-  }
+const useStyles = makeStyles((theme) => ({
+    root: {
+        marginTop: -15,
+        backgroundImage: `url(${bgd})`,
+        height: '105vh',
+        /* Center and scale the image nicely */
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    grid: {
+        padding: theme.spacing(2),
+        textAlign: 'center',
+        color: theme.palette.text.secondary,
+    },
+    hr_div: {
+        paddingLeft: theme.spacing(10),
+        paddingRight: theme.spacing(10),
+        textAlign: 'center',
+        color: theme.palette.text.secondary,
+    },
+    navLinks : {
+        color: 'white',
+        textDecoration: 'none',
+    },
 }
+));
 
-export default Home;
+export default function MLZealotHome() {
+    const classes = useStyles();
+    const globalCSS = globalStyles();
+    return (
+        <div className={classes.root}>
+            <Grid container className={classes.grid}>
+                <Grid item xs sm={12} md={12}>
+                    <Typography style={{ fontWeight: 400 }} gutterBottom variant="h2" component="h2" color="textSecondary">
+                        MLZealot
+                    </Typography>
+                    <Typography gutterBottom variant="h5" component="h5" color="textSecondary">
+                        Machine Learning and Data Science simplified.
+                    </Typography>
+                    <div className={classes.hr_div}>
+                        <hr/>
+                        <br/>
+                    </div>
+                    <AnchorLink className="btn btn-white" href="#projects" className="navLinks">
+                    <Button className={globalCSS.btnGradientOutlineTransparent}
+                        target="_blank" href="#projects" 
+                        size="large"
+                        startIcon={<ArrowForwardIosRoundedIcon></ArrowForwardIosRoundedIcon>}>
+                            Explore
+                    </Button>
+                    </AnchorLink>
+                    <Button className={globalCSS.btnGradientOutlineTransparent}
+                        target="_blank" href={resume} 
+                        size="large"
+                        endIcon={<PostAddRoundedIcon></PostAddRoundedIcon>}>
+                        Resume
+                    </Button>
+                </Grid>
+            </Grid>
+        </div>
+    )
+}

@@ -1,0 +1,27 @@
+npm i @emotion/css
+npm install @mui/material @mui/styles
+npm install @emotion/react
+npm install @emotion/styled
+npm install @mui/icons-material
+npm install react-anchor-link-smooth-scroll
+
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+npm install --save @fortawesome/free-brands-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
+
+Changes from MUI 4 to MUI 5:
+@material-ui/core -> @mui/material
+@material-ui/system -> @mui/system
+@material-ui/unstyled -> @mui/core
+@material-ui/styles -> @mui/styles
+@material-ui/icons -> @mui/icons-material
+@material-ui/lab -> @mui/lab
+@material-ui/types -> @mui/types
+@material-ui/styled-engine -> @mui/styled-engine
+@material-ui/styled-engine-sc ->@mui/styled-engine-sc
+@material-ui/private-theming -> @mui/private-theming
+@material-ui/codemod -> @mui/codemod
+@material-ui/docs -> @mui/docs
+@material-ui/envinfo -> @mui/envinfo

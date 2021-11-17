@@ -16,3 +16,4 @@ Refer external_libraries.txt for referring to external APIs and libraries.
 If you want to report a bug or submit your idea, feel fre to open an issue.
 Before you report a bug, please take your time to find if an issue hasn't been reported yet.
 
+**Written in React using Material UI 5.**

@@ -1,20 +1,47 @@
-import React, { Component } from 'react';
-import {MDBFooter} from 'mdbreact';
-import '../css/style_common.css'
+import React from 'react';
+import Typography from '@mui/material/Typography';
+import { makeStyles } from '@mui/styles';
+import Container from '@mui/material/Container';
+import Link from '@mui/material/Link';
+import { darkTheme, globalStyles } from '../Theme';
 
-class Footer extends Component {
-    render() {
-        return(
-            <div>
-            <MDBFooter className="primary-gradient">
-                <p className='footer-copyright mb-0 py-3 text-center'>
-                &copy; {new Date().getFullYear()} Copyright:
-                <a href='https://mlzealot.github.io'> mlzealot.github.io </a>
-                </p>
-            </MDBFooter>
-            </div>
-        )
-    }
+function Copyright() {
+  return (
+    <Typography variant="body2">
+      {'Copyright © '}
+      <Link color="inherit" href="https://mlzealot.github.io/">
+        MLZealot
+      </Link>{' '}
+      {new Date().getFullYear()}
+      {'.'}
+    </Typography>
+  );
 }
 
-export default Footer;
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexDirection: 'column',
+    minHeight: '0vh',
+  },
+  main: {
+    marginTop: theme.spacing(10),
+    marginBottom: theme.spacing(2),
+  },
+}));
+
+
+export default function StickyFooter() {
+  const classes = useStyles(darkTheme);
+  const globalCSS = globalStyles();
+
+  return (
+    <div className={classes.root}>
+      <footer className={globalCSS.footer}>
+        <Container maxWidth="sm">
+          <Copyright />
+        </Container>
+      </footer>
+    </div>
+  );
+}
