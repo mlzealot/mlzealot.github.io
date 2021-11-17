@@ -1,28 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.51d4f623.chunk.css",
-    "main.js": "/static/js/main.3c1c4818.chunk.js",
-    "main.js.map": "/static/js/main.3c1c4818.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.68ffa76e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.68ffa76e.js.map",
-    "static/css/2.b9dba429.chunk.css": "/static/css/2.b9dba429.chunk.css",
-    "static/js/2.8e604ab5.chunk.js": "/static/js/2.8e604ab5.chunk.js",
-    "static/js/2.8e604ab5.chunk.js.map": "/static/js/2.8e604ab5.chunk.js.map",
+    "main.css": "/static/css/main.3b1be731.chunk.css",
+    "main.js": "/static/js/main.4196bee4.chunk.js",
+    "main.js.map": "/static/js/main.4196bee4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9952c747.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9952c747.js.map",
+    "static/js/2.93c3ccb3.chunk.js": "/static/js/2.93c3ccb3.chunk.js",
+    "static/js/2.93c3ccb3.chunk.js.map": "/static/js/2.93c3ccb3.chunk.js.map",
+    "static/js/3.6cb668be.chunk.js": "/static/js/3.6cb668be.chunk.js",
+    "static/js/3.6cb668be.chunk.js.map": "/static/js/3.6cb668be.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.b9dba429.chunk.css.map": "/static/css/2.b9dba429.chunk.css.map",
-    "static/css/main.51d4f623.chunk.css.map": "/static/css/main.51d4f623.chunk.css.map",
-    "static/js/2.8e604ab5.chunk.js.LICENSE.txt": "/static/js/2.8e604ab5.chunk.js.LICENSE.txt",
-    "static/media/mdb.css": "/static/media/arrow_right.0897f985.svg",
-    "static/media/avatar256x256.e004483f.png": "/static/media/avatar256x256.e004483f.png",
-    "static/media/Home.css": "/static/media/bg_vector_3.986cedd0.png",
-    "static/media/all.min.css": "/static/media/fa-solid-900.efbd5d20.eot",
-    "static/media/resume.7b9a8614.pdf": "/static/media/resume.7b9a8614.pdf"
+    "static/css/main.3b1be731.chunk.css.map": "/static/css/main.3b1be731.chunk.css.map",
+    "static/js/2.93c3ccb3.chunk.js.LICENSE.txt": "/static/js/2.93c3ccb3.chunk.js.LICENSE.txt",
+    "static/media/Portrait_1_avatar.fc9e980b.png": "/static/media/Portrait_1_avatar.fc9e980b.png",
+    "static/media/Resume_2021_DS.ca6d1248.pdf": "/static/media/Resume_2021_DS.ca6d1248.pdf",
+    "static/media/bgd.43d01e43.png": "/static/media/bgd.43d01e43.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.68ffa76e.js",
-    "static/css/2.b9dba429.chunk.css",
-    "static/js/2.8e604ab5.chunk.js",
-    "static/css/main.51d4f623.chunk.css",
-    "static/js/main.3c1c4818.chunk.js"
+    "static/js/runtime-main.9952c747.js",
+    "static/js/2.93c3ccb3.chunk.js",
+    "static/css/main.3b1be731.chunk.css",
+    "static/js/main.4196bee4.chunk.js"
   ]
 }
