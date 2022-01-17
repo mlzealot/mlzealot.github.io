@@ -20,7 +20,7 @@ export const portfolioLinkArray = [
     {
         portfolio_id : 3,
         portfolio_name : "LinkedIn",
-        portfolio_url : "https://in.linkedin.com/in/srimanthagastyaraju",
+        portfolio_url : "https://www.linkedin.com/in/asrimanth/",
         portfolio_icon : "linkedin",
     },
 ];
