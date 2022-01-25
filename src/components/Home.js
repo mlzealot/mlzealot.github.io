@@ -12,7 +12,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import '../App.css';
 import bgd from '../assets/bgd.png';
-import resume from "../assets/Resume_2021_DS.pdf";
+import resume from "../assets/Resume_DS_2022.pdf";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -65,7 +65,7 @@ export default function MLZealotHome() {
                         <hr/>
                         <br/>
                     </div>
-                    <AnchorLink className="btn btn-white" href="#projects" className="navLinks">
+                    <AnchorLink className="btn btn-white navLinks" href="#projects">
                     <Button className={globalCSS.btnGradientOutlineTransparent}
                         target="_blank" href="#projects" 
                         size="large"
