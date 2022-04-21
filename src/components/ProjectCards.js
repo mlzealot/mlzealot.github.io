@@ -79,7 +79,7 @@ const ProjectCard = ({classes, globalCSS, project}) => {
                 {project.links.map((link) => (
                   <Button key={link.id} className={globalCSS.btnGradientOutline}
                     target="_blank" href={link.url} 
-                    startIcon={<Icon><FontAwesomeIcon className={classes.icons} size="sm" icon={["fab", link.icon]} /></Icon>}>
+                    startIcon={<Icon><FontAwesomeIcon className={classes.icons} size="sm" icon={[link.iconType, link.icon]} /></Icon>}>
                       {link.button_text}
                   </Button>
                 ))}

@@ -1,0 +1,70 @@
+<svg id="sankey_svg" height="600" width="1200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 2/2/2022, 12:15:40 AM -->
+<rect height="600" width="1200" fill="#ffffff"></rect>
+<g transform="translate(12,18)">
+<g id="sankey_flows">
+<path class="link" d="M5 286.81537C108.14 286.81537 131.06 286.80106 234.2 286.80106" style="stroke: rgb(107, 174, 214); opacity: 0.4; fill: none; stroke-width: 554px;"><title>Job Search &#8594; Shortlisted:
+43</title></path>
+<path class="link" d="M239.2 422.08013C342.34 422.08013 365.26 422.27907 468.4 422.27907" style="stroke: rgb(198, 219, 239); opacity: 0.4; fill: none; stroke-width: 283.442px;"><title>Shortlisted &#8594; Not Applied:
+22</title></path>
+<path class="link" d="M239.2 145.08013C342.34 145.08013 365.26 135.27907 468.4 135.27907" style="stroke: rgb(158, 202, 225); opacity: 0.4; fill: none; stroke-width: 270.558px;"><title>Shortlisted &#8594; Applied:
+21</title></path>
+<path class="link" d="M473.4 193.25581C576.54 193.25581 599.46 211.55983 702.6 211.55983" style="stroke: rgb(253, 141, 60); opacity: 0.4; fill: none; stroke-width: 154.605px;"><title>Applied &#8594; Did not receive reply:
+12</title></path>
+<path class="link" d="M473.4 57.97674C576.54 57.97674 599.46 66.28076 702.6 66.28076" style="stroke: rgb(230, 85, 13); opacity: 0.4; fill: none; stroke-width: 115.953px;"><title>Applied &#8594; Received reply:
+9</title></path>
+<path class="link" d="M707.6 40.51332C810.74 40.51332 833.66 41.33312 936.8 41.33312" style="stroke: rgb(253, 174, 107); opacity: 0.4; fill: none; stroke-width: 64.4186px;"><title>Received reply &#8594; Interview:
+5</title></path>
+<path class="link" d="M707.6 98.49006C810.74 98.49006 833.66 109.30986 936.8 109.30986" style="stroke: rgb(253, 208, 162); opacity: 0.4; fill: none; stroke-width: 51.5349px;"><title>Received reply &#8594; No interview:
+4</title></path>
+<path class="link" d="M941.8 34.89126C1044.94 34.89126 1067.86 34.91205 1171 34.91205" style="stroke: rgb(255, 0, 0); opacity: 0.4; fill: none; stroke-width: 51.5349px;"><title>Interview &#8594; Rejected:
+4</title></path>
+<path class="link" d="M941.8 67.10056C1044.94 67.10056 1067.86 77.12135 1171 77.12135" style="stroke: rgb(116, 196, 118); opacity: 0.4; fill: none; stroke-width: 12.8837px;"><title>Interview &#8594; Selected:
+1</title></path>
+</g>
+<g id="sankey_nodes" shape-rendering="crispEdges" style="stroke-width: 0px;">
+<g class="node"><rect x="0" y="9.81537" height="554" width="5" id="r0" class="for_r0" style="fill: rgb(49, 130, 189); fill-opacity: 1; stroke: rgb(24, 63, 92);"><title>Job Search:
+43</title></rect>
+</g>
+<g class="node"><rect x="234.2" y="9.80106" height="554" width="5" id="r1" class="for_r1" style="fill: rgb(107, 174, 214); fill-opacity: 1; stroke: rgb(52, 85, 104);"><title>Shortlisted:
+43</title></rect>
+</g>
+<g class="node"><rect x="468.4" y="0" height="270.55814" width="5" id="r2" class="for_r2" style="fill: rgb(158, 202, 225); fill-opacity: 1; stroke: rgb(77, 98, 110);"><title>Applied:
+21</title></rect>
+</g>
+<g class="node"><rect x="468.4" y="280.55814" height="283.44186" width="5" id="r3" class="for_r3" style="fill: rgb(198, 219, 239); fill-opacity: 1; stroke: rgb(97, 107, 117);"><title>Not Applied:
+22</title></rect>
+</g>
+<g class="node"><rect x="702.6" y="8.30402" height="115.95349" width="5" id="r4" class="for_r4" style="fill: rgb(230, 85, 13); fill-opacity: 1; stroke: rgb(112, 41, 6);"><title>Received reply:
+9</title></rect>
+</g>
+<g class="node"><rect x="702.6" y="134.2575" height="154.60465" width="5" id="r5" class="for_r5" style="fill: rgb(253, 141, 60); fill-opacity: 1; stroke: rgb(123, 69, 29);"><title>Did not receive reply:
+12</title></rect>
+</g>
+<g class="node"><rect x="936.8" y="9.12381" height="64.4186" width="5" id="r6" class="for_r6" style="fill: rgb(253, 174, 107); fill-opacity: 1; stroke: rgb(123, 85, 52);"><title>Interview:
+5</title></rect>
+</g>
+<g class="node"><rect x="936.8" y="83.54242" height="51.53488" width="5" id="r7" class="for_r7" style="fill: rgb(253, 208, 162); fill-opacity: 1; stroke: rgb(123, 101, 79);"><title>No interview:
+4</title></rect>
+</g>
+<g class="node"><rect x="1171" y="9.14461" height="51.53488" width="5" id="r8" class="for_r8" style="fill: rgb(49, 163, 84); fill-opacity: 1; stroke: rgb(24, 79, 41);"><title>Rejected:
+4</title></rect>
+</g>
+<g class="node"><rect x="1171" y="70.67949" height="12.88372" width="5" id="r9" class="for_r9" style="fill: rgb(116, 196, 118); fill-opacity: 1; stroke: rgb(56, 96, 57);"><title>Selected:
+1</title></rect>
+</g>
+</g>
+<g id="sankey_labels" style="font-family: sans-serif; font-size: 15px; font-weight: 400; fill: rgb(0, 0, 0);">
+<text text-anchor="start" x="11" y="286.81537" dy=".35em" class="for_r0">Job Search: 43</text>
+<text text-anchor="start" x="245.2" y="286.80106" dy=".35em" class="for_r1">Shortlisted: 43</text>
+<text text-anchor="start" x="479.4" y="135.27907" dy=".35em" class="for_r2">Applied: 21</text>
+<text text-anchor="start" x="479.4" y="422.27907" dy=".35em" class="for_r3">Not Applied: 22</text>
+<text text-anchor="end" x="696.6" y="66.28076" dy=".35em" class="for_r4">Received reply: 9</text>
+<text text-anchor="end" x="696.6" y="211.55983" dy=".35em" class="for_r5">Did not receive reply: 12</text>
+<text text-anchor="end" x="930.8" y="41.33312" dy=".35em" class="for_r6">Interview: 5</text>
+<text text-anchor="end" x="930.8" y="109.30986" dy=".35em" class="for_r7">No interview: 4</text>
+<text text-anchor="end" x="1165" y="34.91205" dy=".35em" class="for_r8">Rejected: 4</text>
+<text text-anchor="end" x="1165" y="77.12135" dy=".35em" class="for_r9">Selected: 1</text>
+</g>
+</g></svg>
