@@ -9,6 +9,21 @@ export const componentDescription = "Here are some of my projects.";
 
 export const projectJsonArray = [
     {
+        id: 7,
+        title: "Deeply Supervised Depth Map Super Resolution",
+        image: `${base}/IGa3Md8wP6g/${dimensions}`,
+        description: "Designed an end-to-end image upscaling model while maintaining remarkable image quality (a structural similarity index of 0.9). \
+        Implemented state-of-the-art deep learning models from 10+ research papers using NumPy, Pandas, Scikit-Learn and PyTorch.",
+        links: [
+            {
+                icon:"github",
+                iconType: "fab",
+                url:"https://github.com/asrimanth/DSDMSR-PyTorch",
+                button_text:"GitHub",
+            },
+        ],
+    },
+    {
         id: 6,
         title: "Tree of Life visualizations for Human Anatomy",
         image: `${base}/ZiQkhI7417A/${dimensions}`,
@@ -45,7 +60,7 @@ export const projectJsonArray = [
             {
                 icon:"github",
                 iconType: "fab",
-                url:"https://github.com/srimanth98/Optical-Character-Recognition-using-Probabilistic-Models",
+                url:"https://github.com/asrimanth/Optical-Character-Recognition-using-Probabilistic-Models",
                 button_text:"GitHub",
             },
         ],
@@ -60,7 +75,7 @@ export const projectJsonArray = [
             {
                 icon:"github",
                 iconType: "fab",
-                url:"https://github.com/srimanth98/Game-Playing-AI-for-Tetris",
+                url:"https://github.com/asrimanth/Game-Playing-AI-for-Tetris",
                 button_text:"GitHub",
             },
         ],
@@ -75,30 +90,13 @@ export const projectJsonArray = [
             {
                 icon:"github",
                 iconType: "fab",
-                url:"https://github.com/srimanth98/Path-Finding-Using-A_star-Algorithm",
+                url:"https://github.com/asrimanth/Sentiment-Analysis-of-YouTube-Comments",
                 button_text:"GitHub",
             },
         ],
     },
     {
         id: 2,
-        title: "Data Explorer",
-        image: `${base}/JKUTrJ4vK00/${dimensions}`,
-        description: "An application which allows the user to read and clean a relational \
-        dataset, build a few plots off the dataset and allows the user to \
-        select the features and the ML algorithm based on the plot info. \
-        Developed using Dash by Plotly.",
-        links: [
-            {
-                icon:"github",
-                iconType: "fab",
-                url:"https://github.com/srimanth98/Data-Explorer",
-                button_text:"GitHub",
-            },
-        ],
-    },
-    {
-        id: 1,
         title: "Sentiment Analysis of YouTube comments",
         image: `${base}/niUkImZcSP8/${dimensions}`,
         description: "Achieved an accuracy of 88% over novel data by extracting data using YouTube Data API v3. \
@@ -110,16 +108,23 @@ export const projectJsonArray = [
                 url:"https://www.kaggle.com/srimanth98/data-cleaning-eda-plotly-feat-engg-lasso",
                 button_text:"GitHub"
             },
-            // {
-            //     icon:"kaggle",
-            //     url:"https://www.kaggle.com/srimanth98/data-cleaning-eda-plotly-feat-engg-lasso",
-            //     button_text:"Kaggle"
-            // },
-            // {
-            //     icon:"medium",
-            //     url:"https://www.kaggle.com/srimanth98/data-cleaning-eda-plotly-feat-engg-lasso",
-            //     button_text:"Medium"
-            // },  
+        ],
+    },
+    {
+        id: 1,
+        title: "Data Explorer",
+        image: `${base}/JKUTrJ4vK00/${dimensions}`,
+        description: "An application which allows the user to read and clean a relational \
+        dataset, build a few plots off the dataset and allows the user to \
+        select the features and the ML algorithm based on the plot info. \
+        Developed using Dash by Plotly.",
+        links: [
+            {
+                icon:"github",
+                iconType: "fab",
+                url:"https://github.com/asrimanth/Data-Explorer",
+                button_text:"GitHub",
+            },
         ],
     },
     {
