@@ -4,7 +4,6 @@ import { Grid } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { globalStyles } from '../Theme';
-import { Icon } from '@mui/material';
 
 import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';

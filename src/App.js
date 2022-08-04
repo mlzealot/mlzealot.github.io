@@ -1,6 +1,5 @@
 import './App.css';
 import StickyFooter from './components/Footer';
-import NavBar from './components/NavBar';
 import DefaultNavBar from './components/DefaultNavBar';
 import Home from './components/Home';
 import ProjectCards from './components/ProjectCards';

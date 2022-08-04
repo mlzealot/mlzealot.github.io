@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@mui/styles';
-import { Container, Grid, Icon } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 import Box from '@mui/material/Box';
 
 import Typography from '@mui/material/Typography';
@@ -14,14 +14,12 @@ import avatar from "../assets/Portrait_1_avatar.png";
 import { 
     aboutMeComponentTitle,
     aboutMeComponentDescription,
-    aboutMeLinkArray,
     myBio,
 } from '../data/AboutMeData';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(fab);
 library.add(fas);

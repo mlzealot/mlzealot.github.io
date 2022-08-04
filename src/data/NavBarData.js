@@ -14,7 +14,7 @@ export const portfolioLinkArray = [
     },{
         portfolio_id : 2, 
         portfolio_name : "GitHub",
-        portfolio_url : "https://github.com/srimanth98",
+        portfolio_url : "https://github.com/asrimanth",
         portfolio_icon : "github",
     },
     {

@@ -1,15 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@mui/styles';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import { globalStyles } from '../Theme';
-
-import { portfolioLinkArray } from '../data/NavBarData';
-
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import ResponsiveDrawer from "./ResponsiveDrawer";
 import DefaultNavBar from "./DefaultNavBar";
@@ -18,7 +9,6 @@ import { darkTheme } from "../Theme";
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 library.add(fab);
 
 
