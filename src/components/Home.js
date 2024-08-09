@@ -11,7 +11,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import '../App.css';
 import bgd from '../assets/bgd.png';
-import resume from "../assets/Resume_DS_2022.pdf";
+import resume from "../assets/M73_Srimanth_Agastyaraju_Resume.pdf";
 
 
 const useStyles = makeStyles((theme) => ({
